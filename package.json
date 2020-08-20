@@ -4,8 +4,8 @@
   "engines": {
     "node": ">6.0.0"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
-  "repository": "https://eugenioesg@bitbucket.org/eugenioesg/pakastin-node-ruuvitag.git"
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": "https://eugenioesg@bitbucket.org/eugenioesg/pakastin-node-ruuvitag.git",
   "description": "Read data from RuuviTag weather station",
   "main": "index.js",
   "scripts": {
