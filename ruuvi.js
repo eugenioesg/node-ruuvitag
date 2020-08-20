@@ -36,7 +36,7 @@ class Ruuvi extends EventEmitter {
       // Scan for new RuuviTags, add them to the array of found tags
       // is it a RuuviTag in RAW mode?
       const manufacturerData = peripheral.advertisement ? peripheral.advertisement.manufacturerData : undefined;
-      if (manufacturerData && manufacturerData[0] === 0x99 && manufacturerData[1] === 0x04) {
+      if (true || manufacturerData && manufacturerData[0] === 0x99 && manufacturerData[1] === 0x04) {
         if (!this._tagLookup[peripheral.id]) {
           newRuuviTag = new RuuviTag({
             id: peripheral.id,
