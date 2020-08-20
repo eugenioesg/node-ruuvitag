@@ -1,5 +1,5 @@
 {
-  "name": "node-ruuvitag",
+  "name": "eugenioesg/node-ruuvitag",
   "version": "4.6.1",
   "engines": {
     "node": ">6.0.0"
